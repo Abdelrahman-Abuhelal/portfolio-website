@@ -109,7 +109,9 @@ const educationInfo = {
       desc: "",
       descBullets: [
         "Took 8 Theoretical Semesters and Practised 24 months of training periods in software companies.",
-        "Took courses about Software Engineering, Object Oriented, Data Structures, Database, Operating Systems"
+        "Took courses about Software Engineering, Object Oriented, Data Structures, Database, Operating Systems",
+        "Honor List 7 times with Cumulative agv of 93.5%",
+
       ]
     },
     {
@@ -129,17 +131,17 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Backend",
+      Stack: "Backend / APIs",
       progressPercentage: "90%"
     },
     {
-      Stack: "Problem Solving",
-      progressPercentage: "75%"
-    },
+      Stack: "Database", //Insert stack or technology you have experience in
+      progressPercentage: "85%" //Insert relative proficiency in percentage
+    },  
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "40%" //Insert relative proficiency in percentage
-    }
+      Stack: "Unit Testing",
+      progressPercentage: "85%"
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
