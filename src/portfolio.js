@@ -47,18 +47,22 @@ const skillsSection = {
   title: "What I do",
   subTitle: "MOTIVATED BACKEND DEVELOPER WHO LIKE TO GET HIS HANDS DIRTY",
   skills: [
-   
-    emoji("⚡ Designing and implementing secure RESTful APIs with Spring Boot and Spring Security"),
-    emoji("⚡ Proficient in SQL and ORM frameworks such as Hibernate for database interaction"),
+    emoji(
+      "⚡ Designing and implementing secure RESTful APIs with Spring Boot and Spring Security"
+    ),
+    emoji(
+      "⚡ Proficient in SQL and ORM frameworks such as Hibernate for database interaction"
+    ),
     emoji("⚡ Ensuring code maintainability, security, and scalability"),
-    emoji("⚡ Collaborating with frontend developers to ensure smooth integration")
+    emoji(
+      "⚡ Collaborating with frontend developers to ensure smooth integration"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-
     {
       skillName: "java",
       fontAwesomeClassname: "fab fa-java"
@@ -110,8 +114,7 @@ const educationInfo = {
       descBullets: [
         "Took 8 Theoretical Semesters and Practised 24 months of training periods in software companies.",
         "Took courses including Software Engineering, Object Oriented, Data Structures, Database, Operating Systems",
-        "Honor List 7 times with Cumulative agv of 93.5%",
-
+         "Honor List 7 times with Cumulative agv of 93.5%"
       ]
     },
     {
@@ -120,7 +123,9 @@ const educationInfo = {
       subHeader: "Exchange Student in Erasmus+",
       duration: "January 2022 - June 2022",
       desc: "",
-      descBullets: ["Took courses about Artificial intelligence, Computer Graphics and Software Development of Real-Time Systems."]
+      descBullets: [
+        "Took courses about Artificial intelligence, Computer Graphics and Software Development of Real-Time Systems."
+      ]
     }
   ]
 };
@@ -137,11 +142,11 @@ const techStack = {
     {
       Stack: "Database", //Insert stack or technology you have experience in
       progressPercentage: "85%" //Insert relative proficiency in percentage
-    },  
+    },
     {
       Stack: "Unit Testing",
       progressPercentage: "85%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -170,9 +175,9 @@ const workExperiences = {
       date: "June 2023 – Sep 2023",
       desc: "Worked as web developer and AI Solution architecture",
       descBullets: [
-      "Working with several generative AI models and open-source libraries to bring business solutions.",
-      "Using techniques such as RAG for enhancing the accuracy and reliability of generative AI models."
-    ]
+        "Working with several generative AI models and open-source libraries to bring business solutions.",
+        "Using techniques such as RAG for enhancing the accuracy and reliability of generative AI models."
+      ]
     }
   ]
 };
