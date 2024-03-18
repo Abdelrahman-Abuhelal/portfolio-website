@@ -114,7 +114,7 @@ const educationInfo = {
       descBullets: [
         "Took 8 Theoretical Semesters and Practised 24 months of training periods in software companies.",
         "Took courses including Software Engineering, Object Oriented, Data Structures, Database, Operating Systems",
-         "Honor List 7 times with Cumulative agv of 93.5%"
+        "Honor List 7 times with Cumulative agv of 93.5%"
       ]
     },
     {
