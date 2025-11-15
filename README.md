@@ -73,7 +73,7 @@ This is a modern, minimal portfolio website built with [Next.js](https://nextjs.
 
 #### Custom Domain
 
-- In Cloudflare Pages, go to your project’s settings → Domains.
+- In Cloudflare Pages, go to your project's settings → Domains.
 - Add your custom domain and follow the DNS instructions (usually a CNAME or A record).
 - Make sure your DNS is managed by Cloudflare for easiest setup.
 
