@@ -1,5 +1,5 @@
 "use client"
-import { BriefcaseBusiness, Contact, Home, Moon, Sun, UserRound, Wrench } from 'lucide-react';
+import { BriefcaseBusiness, Contact, Home, Moon, Sun, UserRound, Wrench, FolderKanban } from 'lucide-react';
 import Dock from '@/reactBits/blocks/Components/Dock/Dock'
 import { useEffect, useState } from 'react';
 import { motion } from "framer-motion";
@@ -36,7 +36,8 @@ export default function DockBar() {
         { icon: <Home size={16} color={color} />, label: 'Home', onClick: () => scrollToSection('home') },
         { icon: <UserRound size={16} color={color} />, label: 'About Me', onClick: () => scrollToSection('aboutme') },
         { icon: <Wrench size={16} color={color} />, label: 'My Developer Tools', onClick: () => scrollToSection('tools') },
-        { icon: <BriefcaseBusiness size={16} color={color} />, label: 'Projects', onClick: () => scrollToSection('projects') },
+        { icon: <BriefcaseBusiness size={16} color={color} />, label: 'Experience', onClick: () => scrollToSection('experience') },
+        { icon: <FolderKanban size={16} color={color} />, label: 'Projects', onClick: () => scrollToSection('projects') },
         { icon: <Contact size={16} color={color} />, label: 'Contact Me!', onClick: () => scrollToSection('contact') },
         {
             icon: theme === "light" ? <Moon size={16} color='blue' /> : <Sun size={16} color='orange' />,

@@ -12,39 +12,30 @@ import type { StaticImageData } from 'next/image';
 
 const projects = [
     {
-        title: 'Homelab – Personal Cloud File Manager',
+        title: 'Next-Edu: AI Learning Companion',
         description:
-            'Self-hosted file manager with upload, rename, delete, folder size, and download support. Frontend runs on Cloudflare Pages; backend runs on an old Android phone using Termux and Cloudflare Tunnel. Designed to be usable by all age groups — tested by family.',
-        stack: ['React', 'Node.js', 'Cloudflare', 'Tailwind', 'MUI'],
-        image: [homeLabImg, sampleImg],
-        github: 'https://github.com/SIDDHAARTHAA/homelab-final',
-        live: 'https://app.sidlabs.shop/',
-    },
-    {
-        title: 'Portfolio Website',
-        description:
-            'A clean, minimal portfolio site built to showcase work and resume. Responsive across devices with simple animations and accessible layout.',
-        stack: ['Next.js', 'Tailwind CSS', 'Bits UI'],
-        image: portfolioImg,
-        github: 'https://github.com/SIDDHAARTHAA/portfolio-website',
-        live: 'https://sidlabs.shop/',
-    },
-    {
-        title: 'Crypto Wallet Simulator',
-        description:
-            'Frontend-only simulation of Ethereum and Solana wallets. Generates valid mnemonic phrases and keypairs using real crypto logic.',
-        stack: ['React', 'Tailwind CSS', 'JS Crypto Libs'],
-        image: [crypto_wallet_1, crypto_wallet_2],
-        github: 'https://github.com/SIDDHAARTHAA/web_based_crypto_wallet',
-        live: 'https://crypto.sidlabs.shop/',
-    },
-    {
-        title: 'Social Media App',
-        description:
-            'Full-stack MERN-based social media platform with posts, comments, real-time messaging, and user auth. Built as part of a university project.',
-        stack: ['React', 'Node.js', 'Express', 'MongoDB'],
+            'AI Learning Companion for Palestinian Students. A comprehensive educational platform powered by AI to enhance learning experiences and provide personalized educational support for students in Palestine.',
+        stack: ['Next.js', 'AI', 'TypeScript', 'React'],
         image: sampleImg,
-        github: 'https://github.com/SIDDHAARTHAA/Social-Media-App',
+        github: 'https://github.com/Abdelrahman-Abuhelal/next-edu',
+        live: '#',
+    },
+    {
+        title: 'Training Management Platform – EXALT Technologies',
+        description:
+            'A secure web application powered by LLM capabilities to manage training progress and materials through different portals for HR, Supervisors, and Trainees. Features include JWT authentication, role-based authorization, task management, form creation, and skill tracking. Built with Spring Boot backend and React frontend.',
+        stack: ['Spring Boot', 'React', 'MySQL', 'JWT', 'Spring Security', 'Material UI'],
+        image: sampleImg,
+        github: 'https://github.com/Abdelrahman-Abuhelal/Training-Management-Platform',
+        live: 'https://www.loom.com/share/aa6cf05960cf4d38827b2fcefc7f8700',
+    },
+    {
+        title: 'Snake-GPT – Bosch Internship',
+        description:
+            'SNAKE (Strategic Neural Analysis and Knowledge Enhancement) - A Chrome extension that generates user stories for project requirements based on page context using open-source large language models. Features RAG techniques with LangChain, ChromaDB for embeddings, and a Flask backend. Developed during internship at Robert Bosch GmbH.',
+        stack: ['Django', 'LangChain', 'Python', 'Chrome Extension', 'RAG', 'ChromaDB', 'Flask'],
+        image: sampleImg,
+        github: 'https://github.com/Abdelrahman-Abuhelal/Snake-GPT',
         live: '#',
     },
 ];
@@ -129,7 +120,7 @@ export default function Projects() {
             {/* Title with dash */}
             <div className="w-full flex flex-col items-center gap-4">
                 <h2 className="text-2xl sm:text-4xl font-bold text-center sm:text-left whitespace-nowrap px-3">
-                    Some Things I’ve Built
+                    Featured Projects
                 </h2>
                 <div className="hidden sm:flex flex-1 border-t border-card-border"></div>
             </div>

@@ -1,5 +1,5 @@
 'use client'
-import { Mail, Instagram, Linkedin, Twitter, Send } from "lucide-react";
+import { Mail, Linkedin, Send, Github } from "lucide-react";
 import { useState } from "react";
 import { toast } from 'sonner'
 
@@ -101,17 +101,17 @@ export default function ContactPage() {
                 </form>
                 <p className="items-center justify-center flex mt-3">or</p>
                 <div className="flex flex-wrap gap-4 justify-center">
-                    <a href="mailto:siddhaartha09@gmail.com" className="p-3 rounded-full bg-muted border border-card-border hover:scale-105 transition">
+                    <a href="mailto:abd.hilal14@gmail.com" className="p-3 rounded-full bg-muted border border-card-border hover:scale-105 transition">
                         <Mail size={20} />
                     </a>
-                    <a href="https://www.instagram.com/siddhaartha_bs" target="_blank" className="p-3 rounded-full bg-muted border border-card-border hover:scale-105 transition">
-                        <Instagram size={20} />
-                    </a>
-                    <a href="https://www.linkedin.com/in/siddhaartha-b-s-16802b2b7" target="_blank" className="p-3 rounded-full bg-muted border border-card-border hover:scale-105 transition">
+                    <a href="https://www.linkedin.com/in/abed-abuhelal" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-muted border border-card-border hover:scale-105 transition">
                         <Linkedin size={20} />
                     </a>
-                    <a href="https://x.com/sid_likescoding" target="_blank" className="p-3 rounded-full bg-muted border border-card-border hover:scale-105 transition">
-                        <Twitter size={20} />
+                    <a href="https://github.com/Abdurhman-Abuhelal" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-muted border border-card-border hover:scale-105 transition">
+                        <Github size={20} />
+                    </a>
+                    <a href="tel:+970598062832" className="p-3 rounded-full bg-muted border border-card-border hover:scale-105 transition">
+                        <span className="text-sm">(+970) 59 8062832</span>
                     </a>
                 </div>
             </div>

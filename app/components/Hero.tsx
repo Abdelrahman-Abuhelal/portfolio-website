@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image";
-import myImage from '../../public/myImage.jpg';
+import myImage from '../../public/myImage.jpeg';
 import HeroButtons from "./HeroButtons";
 import SpotlightCard from '@/reactBits/blocks/Components/SpotlightCard/SpotlightCard';
 
@@ -24,9 +24,9 @@ export default function Hero() {
 
                 <div className="flex flex-col justify-between gap-6 pt-1 text-center xl:text-left">
                     <div className="rounded-xl text-pretty">
-                        <h1 className="text-5xl md:text-6xl mb-4 font-bold">Hi, I'm Sid</h1>
+                        <h1 className="text-5xl md:text-6xl mb-4 font-bold">Hi, I'm Abdurhman</h1>
                         <p className="text-base md:text leading-relaxed">
-                            Full stack dev, driven by passion. Always curious, always building. Fast learner, big dreamer. Let’s create something cool — hit me up.
+                            AI Developer and Fullstack Engineer from Palestine. Building scalable AI agent platforms, crafting modern web applications, and passionate about creating innovative solutions. Always learning, always building — let's connect.
                         </p>
                     </div>
                     <div className="flex justify-center xl:justify-start">

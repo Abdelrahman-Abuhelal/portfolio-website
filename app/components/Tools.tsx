@@ -1,46 +1,31 @@
-import { Terminal, Server, Database, Code2, LayoutPanelTop, Camera, Wrench, ShieldPlus, Palette } from "lucide-react";
+import { Terminal, Server, Database, Code2, LayoutPanelTop, Wrench } from "lucide-react";
 
 export default function Tools() {
     const toolData = [
         {
             title: "Languages",
             icon: <Terminal size={20} />,
-            items: ["C++", "C", "JavaScript", "TypeScript", "Bash", "SQL", "Java"],
+            items: ["Java", "Python", "JavaScript", "TypeScript", "SQL"],
         },
         {
             title: "Frontend",
             icon: <LayoutPanelTop size={20} />,
-            items: ["HTML", "CSS", "React.js", "Next.js", "TailwindCSS", "ShadCN/UI", "Radix UI"],
+            items: ["React.js", "TypeScript", "Redux", "HTML", "Tailwind CSS", "JavaScript"],
         },
         {
             title: "Backend",
             icon: <Server size={20} />,
-            items: ["Node.js", "Express.js", "Zod", "JWT", "bcrypt", "Multer"],
+            items: ["Spring Boot", "Hibernate", "Django", "Node.js", "Express.js"],
         },
         {
             title: "Databases",
             icon: <Database size={20} />,
-            items: ["MongoDB", "PostgreSQL", "Mongoose", "Prisma"],
+            items: ["MySQL", "PostgreSQL", "MongoDB"],
         },
         {
             title: "Dev Tools",
             icon: <Code2 size={20} />,
-            items: ["Git", "GitHub", "VSCode", "Postman", "Linux", "Vercel", "Netlify", "Render"],
-        },
-        {
-            title: "Design & Editing",
-            icon: <Camera size={20} />,
-            items: ["DaVinci Resolve", "Photoshop", "After Effects", "Figma", "Motion Graphics"],
-        },
-        {
-            title: "Security & Learning",
-            icon: <ShieldPlus size={20} />,
-            items: ["TryHackMe", "Wireshark", "Cybersecurity Basics"],
-        },
-        {
-            title: "Soft Skills",
-            icon: <Palette size={20} />,
-            items: ["Freelancing", "Client Handling", "Content Strategy"],
+            items: ["Git", "GitHub", "AWS", "Docker", "Maven", "Postman", "Swagger", "VSCode", "IntelliJ"],
         },
     ];
 

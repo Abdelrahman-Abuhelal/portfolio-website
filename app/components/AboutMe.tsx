@@ -1,26 +1,20 @@
 import Image from "next/image";
-import AboutImage from "@/public/myImage.jpg";
+import AboutImage from "@/public/myImage.jpeg";
 import { GraduationCap, LaptopMinimal, SquareArrowOutUpRight } from "lucide-react";
 
 export default function AboutMe() {
     const educationData = [
         {
-            title: "Bachelor of Technology in Computer Science",
-            duration: "2024–2027",
-            institute: "Indian Institute of Information Technology Dharwad",
-            link: "https://iiitdwd.ac.in/",
+            title: "Bachelor in Information Technology",
+            duration: "Sep 2020 - Sep 2024",
+            institute: "Al-Quds University, Palestine",
+            link: "https://www.alquds.edu/",
         },
         {
-            title: "Pre-University Course",
-            duration: "2022–2024",
-            institute: "Ambika Padavi Poorva Vidyalaya",
-            link: "https://www.ambikapucollege.edu.in/",
-        },
-        {
-            title: "Secondary Education – Specialization in Sanskrit and Veda",
-            duration: "2016–2022",
-            institute: "Vaidika Laukika Gurukula, Udupi",
-            link: "https://sriputhige.org/padigaar-vidyapeetha/",
+            title: "Exchange Student Program",
+            duration: "Jan 2022 - June 2022",
+            institute: "Malardalens University, Vasteras, Sweden",
+            link: "https://www.mdu.se/",
         },
     ];
 
@@ -40,10 +34,10 @@ export default function AboutMe() {
                 </div>
 
                 <div className="flex flex-col items-center md:items-start text-center md:text-left gap-2">
-                    <h1 className="text-4xl font-bold">Siddhaartha B S</h1>
-                    <p className="text-muted-foreground text-lg">Student @ IIIT Dharwad</p>
+                    <h1 className="text-4xl font-bold">Abdurhman Abuhelal</h1>
+                    <p className="text-muted-foreground text-lg">AI Developer @ PathLLM.ai</p>
                     <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-                        {["Web2 Dev", "Machine learning", "DevOps", "Filmmaker", "Video Editor", "Freelancer"].map((tag, idx) => (
+                        {["AI Developer", "Fullstack Engineer", "Backend Engineer", "Spring Boot", "React", "Python"].map((tag, idx) => (
                             <span
                                 key={idx}
                                 className="px-3 py-1 text-sm bg-muted border border-card-border rounded-full"
@@ -64,11 +58,11 @@ export default function AboutMe() {
                         <LaptopMinimal /> Professional Summary
                     </h2>
                     <p className="text-base leading-relaxed">
-                        Full-Stack Developer based in Dharwad, blending rapid learning with a passion for clean, scalable tech. I specialize in building modern web applications using the MERN stack, with growing expertise in TypeScript, Next.js, Prisma, and cutting-edge UI systems like ShadCN/UI and Radix UI.
+                        AI Developer and Fullstack Engineer from Palestine with a strong foundation in backend development and a passion for building scalable, innovative solutions. Currently working at PathLLM.ai, where I design and develop modular platforms for managing 70+ AI agents, integrating tools and frameworks like CrewAI and LangChain to enhance agent capabilities.
                         <br /><br />
-                        I’ve built everything from authentication systems with JWT and Zod validation to full file managers and chat apps with real-time features. I focus on writing modular, maintainable code and crafting polished UIs that just work across devices.
+                        Previously, I worked as a Fullstack Engineer at FALAK Solutions, developing scalable React components with TypeScript and implementing state management using Redux. I also have extensive experience as a Backend Engineer at EXALT Technologies, where I developed and maintained RESTful APIs using Spring Boot, designed relational database schemas with Hibernate and JPA, and implemented robust authentication mechanisms with Spring Security and JWT.
                         <br /><br />
-                        Whether it’s designing smart full-stack flows, refactoring frontend structure, or integrating complex backend logic — I believe in deep understanding and clean execution. I’m also diving into cybersecurity, and my editing/filmmaking background adds a visual edge to the things I build.
+                        My journey includes an AI Engineer Internship at Robert Bosch GmbH in Germany, where I utilized LangChain and Django for LLM engineering and developed a Chrome extension with efficient RAG techniques. I graduated from Al-Quds University with a Bachelor's in Information Technology, ranking as the top student in my major with a GPA of 93.5% and making the President's Honor List for all semesters. I also founded the AQU Coding Club and participated in an exchange program at Malardalens University in Sweden.
                     </p>
                 </div>
 

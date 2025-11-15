@@ -6,7 +6,7 @@ import {
   Work_Sans,
 } from "next/font/google";
 import SmoothScrollProvider from "./components/SmoothScrollProvider";
-import myImage from "../public/myImage.jpg"
+import myImage from "../public/myImage.jpeg"
 const jetbrains = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--font-jetbrains",
